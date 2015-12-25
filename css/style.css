@@ -1,0 +1,85 @@
+html{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: gray;
+  height: 100%;
+}
+body{
+  width: 100%;
+  background: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.menu {
+  width: 20%;
+  float: left;
+  height: 93%;
+  background: #364150;
+}
+.menu-v {
+  height: 7%;
+  background: #364150;
+}
+.menu-v li {
+  margin: 15px;
+  float: right;
+  list-style: none;
+}
+.menu-v li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.menu-v span {
+  padding-top: 15px;
+  padding-left: 15px;
+    float: left;
+}
+.menu-v span a{
+  color: #fff;
+  text-decoration: none;
+}
+.menu li {
+  list-style: none;
+  margin: 35px;
+}
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.fall-right {
+  paddingt: 0px;
+}
+.hidden {
+  display: none;
+}
+.shown {
+  width: 3%;
+  height: 100%;
+  background: #364150;
+}
+
+.shown ul {
+  padding: 0;
+  margin: 0;
+}
+.shown ul li span i {
+  color : #fff;
+}
+
+.shown ul li {
+  list-style: none;
+  padding: 10px;
+}
+#resize {
+  color: black;
+  width: 30px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
